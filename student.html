@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+    <title>LifeEducation-Student</title>
+</head>
+<body class="font-mono">
+    <h1 class="p-4 font-bold text-2xl">Current courses</h1>
+    <table class="table-auto ml-4 text-center">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th class="ml-10">When</th>
+                <th class="p-2">Duration</th>
+                <th class="p-2">Price</th>
+                <th class="p-2">Open/total</th>
+                <th class="p-2">Instructor</th>
+                <th class="p-2">Review</th>
+                <th class="p-2">GO to course</th>
+            </tr>
+        </thead>
+        <tbody class="bg-green-300 bg-opacity-10">   
+            <tr class="bg-green-100">
+                <td class="text-left font-bold">Kids Baking</td>
+                <td>5-Apr-21</td>
+                <td>60min</td>
+                <td>$15</td>
+                <th>5/8</th>
+                <td>Denis</td>
+                <td>4.5/5</td>
+                <td>
+                    <a href="course1.html">click</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-left font-bold">A Quick Origami</td>
+                <td>3-Apr-21</td>
+                <td>45min</td>
+                <td>$10</td>
+                <th>5/10</th>
+                <td>Linda</td>
+                <td>4.2/5</td>
+                <td></td>
+            </tr>   
+            <tr class="bg-green-100">
+                <td class="text-left font-bold">Self-Plumbing</td>
+                <td>1-Apr-21</td>
+                <td>20min</td>
+                <th>$10</th>
+                <th>7/20</th>
+                <td>Peter</td>
+                <td>4.8/5</td>
+                <td></td>
+            </tr>     
+            <tr>
+                <td class="text-left font-bold">Asian Culture</td>
+                <td>4-Apr-21</td>
+                <td>90min</td>
+                <th>$15</th>
+                <th>14/40</th>
+                <td>Charlie</td>
+                <td>4.9/5</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="mt-4">
+        <h1 class="text-lg font-bold ml-4">subscribe for more incoming classes</h1>
+        <form netlify class="mx-auto ml-4">
+          <label class="block mt-4 font-bold" for="email">What is your name?</label>
+          <input class="p-1 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="name" name="name">
+          <label class="block mt-4 font-bold" for="favorite-color">What is your email?</label>
+          <input class="p-1 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="email" name="email">    
+          <button class="block mt-4 text-white bg-green-500 rounded px-2 py-2">Submit!</button>
+        </form>
+      </div>
+
+    <div class="ml-4 mt-5">
+        <a href="index.html">go <strong>BACK</strong></a>
+    </div>
+</body>
+</html>
